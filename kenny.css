@@ -1,0 +1,91 @@
+body {
+	font-family: "Georgia", serif;
+	background-color: #DCDCDC;
+	color: #000000;
+}
+
+div {
+	background-color: #A9A9A9;
+	margin: 25px;
+}
+
+p {
+	margin: 10px;
+}
+
+h1,h3{
+	text-align: center;
+}
+
+/* for Navigation Bar*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family:"Georgia", "serif";
+	background-color: #696969;
+	color: #000000;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #000000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #BCBCBE;
+	color: #000000;
+}
+
+.active {
+	background-color: #F8F8F8;
+	color: #000000;
+}
+
+
+/* for Photo Timeline*/
+.timeline {
+	display: flex;
+	overflow-x: auto;
+	padding: 20px;
+ 	margin: 0 auto;
+ 	max-width: 1000px;
+}
+
+.event {
+ 	flex-shrink: 0;
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+}
+
+.event img {
+ 	max-width: 100%;
+ 	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.event p {
+	margin: 0;
+}
+
+.event-date {
+	font-weight: bold;
+}
+
+
+/* for Portfolio Photo*/
+img.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	padding: 15px;
+}
